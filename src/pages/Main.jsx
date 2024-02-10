@@ -2,10 +2,10 @@ import React from 'react'
 import { Carousel } from 'react-responsive-carousel'
 import { useNavigate } from 'react-router-dom'
 import DescriptionTabs from '../components/DescriptionTabs'
-import Img_2 from '../img/img-2.jpg'
-import Img_3 from '../img/img-3.jpg'
-import Img_4 from '../img/img-4.jpg'
-import Img_5 from '../img/img-5.jpg'
+import Img_2 from '../img/img2.1.jpg'
+import Img_3 from '../img/img2.2.jpg'
+import Img_4 from '../img/img3-2.jpg'
+import Img_5 from '../img/img3-3.jpg'
 function Main() {
 	const navigate = useNavigate()
 	const navigationHandler = () => {
@@ -46,11 +46,13 @@ function Main() {
 				</div>
 				<div className='side-panel'>
 					<div className='content'>
-						<h1 className='content__title'>Відпарювач RAF SKY RS7307 </h1>
+						<h1 className='content__title'>
+							Портативний автомобільний пилосос, Ручний пилосос для машини 2в1{' '}
+						</h1>
 						<div className='content__prise'>
-							850₴ <br /> <span className='last_prise'>1100₴</span>{' '}
+							550₴ <br /> <span className='last_prise'>850₴</span>{' '}
 						</div>
-						<div className='content__econom'>Економія 250 грн </div>
+						<div className='content__econom'>Економія 300грн </div>
 						<button onClick={navigationHandler} className='content_button'>
 							Оформити замовлення
 						</button>

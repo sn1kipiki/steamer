@@ -41,7 +41,7 @@ body {
 .side-panel {
 	display: flex;
 	flex-direction: column;
-	gap: 50px;
+	gap: 150px;
 }
 .content {
 	display: flex;
@@ -55,7 +55,7 @@ body {
 }
 .content__title {
 	margin-top: 30px;
-	font-size: 24px;
+	font-size: 22px;
 	font-weight: bold;
 }
 .content__prise {
