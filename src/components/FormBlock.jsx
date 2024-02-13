@@ -2,11 +2,11 @@ import { Box, Group, TextInput } from '@mantine/core'
 import '@mantine/core/styles.css'
 import { useForm } from '@mantine/form'
 import { notifications } from '@mantine/notifications'
-import React, { useState } from 'react'
+import React from 'react'
 
 import { sendMessage } from '../api/telegram'
 function FormBlock() {
-	const [isLoading, setIsLoading] = useState(false)
+	// const [isLoading, setIsLoading] = useState(false)
 
 	const form = useForm({
 		initialValues: {
@@ -39,12 +39,13 @@ function FormBlock() {
 					'Вашу заявку розглянуть та звяжуться з вами найближчим часом 😇',
 			})
 
-			setIsLoading(true)
+			// setIsLoading(true)
 		} catch (error) {
 			form.setFieldError('email', error)
-		} finally {
-			setIsLoading(false)
 		}
+		//  finally {
+		// 	setIsLoading(false)
+		// }
 	}
 	return (
 		<Box miw={350} mx={10} className='form-box'>

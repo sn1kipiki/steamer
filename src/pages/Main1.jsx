@@ -28,7 +28,7 @@ function Main1() {
 							<p className='priseblock-price'>550 грн </p>
 						</div>
 					</div>
-					<a href='' className='order-button'>
+					<a href='#bottom' className='order-button'>
 						<span>ЗАМОВИТИ</span>
 					</a>
 					<p className='items-left'>
@@ -165,7 +165,7 @@ function Main1() {
 						</div>
 					</div>
 
-					<p className='items-left'>
+					<p id='bottom' className='items-left'>
 						Залишилося <span>12</span> пилососів по акції
 					</p>
 					<FormBlock />
