@@ -1,11 +1,8 @@
 import React from 'react'
-import { Carousel } from 'react-responsive-carousel'
 import { useNavigate } from 'react-router-dom'
+import CountDown from '../components/CountDown'
 import DescriptionTabs from '../components/DescriptionTabs'
-import Img_2 from '../img/img2.1.jpg'
-import Img_3 from '../img/img2.2.jpg'
-import Img_4 from '../img/img3-2.jpg'
-import Img_5 from '../img/img3-3.jpg'
+
 function Main() {
 	const navigate = useNavigate()
 	const navigationHandler = () => {
@@ -42,6 +39,7 @@ function Main() {
 								</button>
 							</div>
 						</Carousel>
+						<CountDown />
 					</div>
 				</div>
 				<div className='side-panel'>
