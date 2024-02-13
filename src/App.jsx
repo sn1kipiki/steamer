@@ -7,6 +7,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css' // requires a loa
 import { Notifications } from '@mantine/notifications'
 // import Form from './pages/Form'
 import Main1 from './pages/Main1'
+import MetaPixel from './utils/MetaPixel'
 function App() {
 	return (
 		<BrowserRouter>
@@ -17,6 +18,7 @@ function App() {
 					<Route path='/' element={<Main1 />} />
 					{/* <Route path='/form' element={<Form />} /> */}
 				</Routes>
+				<MetaPixel />
 			</div>
 		</BrowserRouter>
 	)
