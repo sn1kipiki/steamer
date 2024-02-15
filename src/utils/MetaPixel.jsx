@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet'
 function MetaPixel() {
 	return (
 		<Helmet>
+			<meta name="facebook-domain-verification" content="xcs08o0g8zo03b1z7cj1ybeutz7vpj" / >
 			<script key='function' id='facebook-pixel-script'>
 				{`!function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -21,6 +22,7 @@ fbq('track', 'PageView');`}
 src="https://www.facebook.com/tr?id=723783546399151&ev=PageView&noscript=1"
 />`}
 			</noscript>
+			
 		</Helmet>
 	)
 }

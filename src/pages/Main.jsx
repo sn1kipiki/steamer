@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import CountDown from '../components/CountDown'
 import DescriptionTabs from '../components/DescriptionTabs'
 
+
 function Main() {
 	const navigate = useNavigate()
 	const navigationHandler = () => {

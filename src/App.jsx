@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 import './App.css'
 
-import 'react-responsive-carousel/lib/styles/carousel.min.css' // requires a loader
+import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
 
 import { Notifications } from '@mantine/notifications'
 // import Form from './pages/Form'
@@ -18,6 +18,7 @@ function App() {
 					<Route path='/' element={<Main1 />} />
 					{/* <Route path='/form' element={<Form />} /> */}
 				</Routes>
+				
 				<MetaPixel />
 			</div>
 		</BrowserRouter>
