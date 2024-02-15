@@ -8,7 +8,7 @@ function MainSection({isTop}) {
 		<section className='main-section' style={isTop ? {height: 1170+ "px"}: {height: 1340+ "px"}}>
 					{isTop &&
 					<>	
-					<h1 className='title'>MULTI CLEANER</h1>
+					<h1 className='title'>CAR VACUUM CLEANER</h1>
 					<h2 className='subtitle'>ПОРТАТИВНИЙ БЕЗДРОТОВИЙ ПИЛОСОС</h2>
 					</>
 					}
