@@ -1,10 +1,11 @@
 import React from 'react'
 import FormBlock from '../../../components/FormBlock'
 import Slider from '../../../components/Slider'
+import CountDown from '../../../components/countDown/CountDown'
 import './styles.scss'
 function MainSection({isTop}) {
 	return (
-		<section className='main-section' style={isTop ? {height: 950+ "px"}: {height: 1100+ "px"}}>
+		<section className='main-section' style={isTop ? {height: 1170+ "px"}: {height: 1340+ "px"}}>
 					{isTop &&
 					<>	
 					<h1 className='title'>MULTI CLEANER</h1>
@@ -25,6 +26,7 @@ function MainSection({isTop}) {
 							<p className='priseblock-price'>550 грн </p>
 						</div>
 					</div>
+					<CountDown/>
 					{isTop &&
 						<a href='#bottom' className='order-button'>
 						<span>ЗАМОВИТИ</span>

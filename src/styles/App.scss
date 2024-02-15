@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Roboto+Mono:wght@300;400;600&display=swap');
+body {
+	background-color: #f4f4f9;
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.container {
+	max-width: 480px;
+}
+.App {
+	width: 100%;
+}
+.app-container {
+	width: 100%;
+	height: calc(100vh - 20px);
+	display: flex;
+	/* flex-wrap: wrap; */
+	gap: 50px;
+	padding: 3%;
+	justify-content: space-between;
+}
+
+.photo-slider-box {
+	background-color: #232322;
+	max-width: 480px;
+	min-width: 250px;
+	border-radius: 10px;
+
+}
+
+
+.form-box {
+	color: #fff;
+	margin-top: 30px;
+}

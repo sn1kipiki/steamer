@@ -1,10 +1,9 @@
-import React from 'react';
 import { MantineProvider } from '@mantine/core'
-import 'bootstrap/dist/css/bootstrap.css';
+import React from 'react'
 
-import ReactDOM from 'react-dom/client';
-import './reset.css';
-import App from './App';
+import ReactDOM from 'react-dom/client'
+import App from './App'
+import './styles/reset.scss'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

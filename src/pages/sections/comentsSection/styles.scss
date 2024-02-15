@@ -1,0 +1,44 @@
+.coments{
+	height: 2400px;
+	text-align: center;
+	
+	.coments-title{
+		font-size: 30px;
+	color: #fc673a;
+	font-weight: 700;
+	padding-top: 20px;
+	}
+	.coment-block{
+		text-align: left;
+		.comet-top{
+			
+			max-width: 360px;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			gap: 45px;
+			margin: 30px auto;
+			.coment-avatar{
+				width: 80px;
+				height: 80px;
+				border-radius: 50%;
+			
+			}
+			.coment-name{
+				font-weight: 500	;
+				font-size: 16px;
+			}
+		}
+		.coment-text{
+		
+			max-width: 300px;
+			margin: 15px auto;
+		}
+		.coment-img{
+			display: block;
+			max-width: 250px;
+			height: auto;
+			margin: 10px auto;
+		}
+	}
+}
