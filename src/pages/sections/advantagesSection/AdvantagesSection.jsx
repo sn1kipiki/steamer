@@ -7,6 +7,8 @@ function AdvantagesSection() {
 	
 	return (
 		<section className='advantages'>
+			<div className="container">
+
 			<h3 className='advantages-title'>ПЕРЕВАГИ</h3>
 			<div className='advantages-bloks'>
 				<div className='advantages-blok'>
@@ -39,6 +41,7 @@ function AdvantagesSection() {
 						швидко відновити його працездатність після використання.
 					</p>
 				</div>
+			</div>
 			</div>
 		</section>
 	)

@@ -4,6 +4,8 @@ import './styles.scss'
 function CharacteristicsSection() {
 	return (
 		<section className='characteristics'>
+			<div className="container">
+
 					<h3 className='characteristics-title'>ХАРАКТЕРИСТИКИ </h3>
 					<ul className='characteristics-list'>
 						<li className='characteristics-item'>
@@ -31,6 +33,7 @@ function CharacteristicsSection() {
 							<b>Вага</b>0.400 кг
 						</li>
 					</ul>
+			</div>
 				</section>
 	)
 }

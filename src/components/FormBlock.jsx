@@ -12,7 +12,7 @@ function FormBlock() {
 		initialValues: {
 			email: '',
 			phoneNumber: '',
-			address: '',
+			initial: '',
 			message1: '',
 		},
 
@@ -20,13 +20,13 @@ function FormBlock() {
 			email: value => (/^\S+@\S+$/.test(value) ? null : 'Invalid email'),
 			phoneNumber: value =>
 				/^\S/.test(value) ? null : 'Це поле є обовязковимv',
-			address: value => (/^\S/.test(value) ? null : 'Це поле є обовязковим'),
+			initial: value => (/^\S/.test(value) ? null : 'Це поле є обовязковим'),
 		},
 	})
 
-	const handleSubmit = async ({ email, phoneNumber, address, message1 }) => {
+	const handleSubmit = async ({ email, phoneNumber, initial, message1 }) => {
 		try {
-			const message = `Email: ${email} || Номер телефону: ${phoneNumber} || Адреса: ${address} || Повідомлення: ${
+			const message = `Email: ${email} || Номер телефону: ${phoneNumber} || ПІБ: ${initial} || Повідомлення: ${
 				message1 || 'не вказано'
 			}`
 
@@ -52,6 +52,12 @@ function FormBlock() {
 			<form onSubmit={form.onSubmit(handleSubmit)}>
 				<TextInput
 					withAsterisk
+					label='ПІБ'
+					placeholder='Введіть ПІБ'
+					{...form.getInputProps('initial')}
+				/>
+				<TextInput
+					withAsterisk
 					label='Email'
 					placeholder='your@email.com'
 					{...form.getInputProps('email')}
@@ -62,12 +68,7 @@ function FormBlock() {
 					placeholder='+380'
 					{...form.getInputProps('phoneNumber')}
 				/>
-				<TextInput
-					withAsterisk
-					label='Aдреса'
-					placeholder='місто, вулиця, кв/буд'
-					{...form.getInputProps('address')}
-				/>
+				
 				<TextInput
 					label='Повідомлення/Питання'
 					placeholder='залиште додаткове повідомлення, задайте питання'
