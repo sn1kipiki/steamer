@@ -8,7 +8,7 @@ function Slider() {
 	return (
 		<div className='photo-slider-box'>
 			<div className='photo-slider'>
-				<Carousel interval='1000' transitionTime='1000' infiniteLoop>
+				<Carousel interval='1000' transitionTime='1000' infiniteLoop swipeable={false}>
 					<div>
 						<img src={Img_2} alt='' />
 						<a href="#bottom" className='legend'>Оформити замовлення</a>
