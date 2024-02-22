@@ -5,7 +5,7 @@ import CountDown from '../../../components/countDown/CountDown'
 import './styles.scss'
 function MainSection({isTop}) {
 	return (
-		<section className='main-section' style={isTop ? {height: 1170+ "px"}: {height: 1340+ "px"}}>
+		<section className='main-section' style={isTop ? {height: 1170+ "px"}: {height: 1500+ "px"}}>
 					{isTop &&
 					<>	
 					<h1 className='title'>CAR VACUUM CLEANER</h1>
@@ -32,7 +32,7 @@ function MainSection({isTop}) {
 						<span>ЗАМОВИТИ</span>
 					</a>
 					}
-					<p id={!isTop && 'bottom'}  className='items-left'>
+					<p   className='items-left'>
 						Залишилося <span>12</span> пилососів по акції
 					</p>
 					{!isTop &&
