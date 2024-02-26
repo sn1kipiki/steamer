@@ -1,0 +1,38 @@
+.slider-wrapper{
+  max-width: 100vw;
+  
+
+
+  .top-sleder{
+    .top-slider__card{
+      width: 100%;
+      .top-slider__image{
+        width: 100%;
+      }
+    }
+  }
+  .bot-slider{
+    
+    // display: flex;
+    
+    margin: 15px auto;
+    gap: 10px;
+    // width: 100%;
+    .bot-slider__card{
+      width: 50px;
+      .bot-slider__image{
+        width: 100%;
+      }
+    }
+    .bot-slider__card-active{
+      border: 5px solid #ff5100;
+      .bot-slider__image{
+        width: 100%;
+      }
+    }
+  }
+}
+.bot-slider .slick-track{
+  display: flex;
+  gap:  20px;
+}

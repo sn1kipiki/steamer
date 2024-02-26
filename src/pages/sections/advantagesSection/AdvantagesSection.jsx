@@ -24,7 +24,7 @@ function AdvantagesSection() {
 				<div className='advantages-blok advantages-blok_t'>
 					<p className='advantages-blok-name'>КОМПАКТНИЙ</p>
 					<p className='advantages-blok-text'>
-						Займає манімум місця у багажнику - ви зможете з комфортом возити
+						Займає мінімум місця у багажнику - ви зможете з комфортом возити
 						його будь-куди.
 					</p>
 				</div>

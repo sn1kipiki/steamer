@@ -1,8 +1,9 @@
 import React from 'react'
 import FormBlock from '../../../components/FormBlock'
-import Slider from '../../../components/Slider'
+
 import CountDown from '../../../components/countDown/CountDown'
 import './styles.scss'
+import SlickSlider from '../../../components/slickSlider/SlickSlider'
 function MainSection({isTop}) {
 	return (
 		<section className='main-section' style={isTop ? {height: 1170+ "px"}: {height: 1500+ "px"}}>
@@ -12,7 +13,7 @@ function MainSection({isTop}) {
 					<h2 className='subtitle'>ПОРТАТИВНИЙ БЕЗДРОТОВИЙ ПИЛОСОС</h2>
 					</>
 					}
-					<Slider/>
+					<SlickSlider/>
 					<div className='prise-blok'>
 						<div className='priseblock-left'>
 							<p className='priseblock-head'>Звичайна ціна:</p>
